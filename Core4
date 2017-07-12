@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set the style of the table -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <style>
+
+      body{
+        color: inherit;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      table, th, td{
+        border: 2px solid #01426a;
+        border-collapse: collapse;
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+        color: #01426a
+      }
+
+      th  {
+        background-color: #ece81a
+      }
+      tr:hover {background-color: #ece81a}
+
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Table starts here-->
+    <div style ="overflow-x:auto;">
+      <table style="width:90%; margin:1em auto">
+
+        <!-- Define the first row of the table -->
+        <tr>
+          <th>Core4 Concept</th>
+          <th>Technical Definition</th>
+          <th>Real-Life Analogy</th>
+          <th>Python Example</th>
+          <th>Scratch Example</th>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Variables</b></td>
+          <td>A place holder for a value within your code that might constantly change.  </td>
+          <td>Within a mathmatical formula, if you use x it can equal any unknown value to which you
+          can plug in the value or solve for it. </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+
+        <!-- Fill in the row for Loops -->
+        <tr>
+          <td><b>Loops</b></td>
+          <td>A block that will allow an action or multiple actions to occur over and over or until something occurs or
+          do something else if it doesn't occur (what you set it to). </td>
+          <td>A daily routine some people may have or a work schedule that they do the same over and over everyday
+          unless something changes. </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+
+        <!-- Fill in the row for Conditionals -->
+        <tr>
+          <td><b>Conditionals</b></td>
+          <td>A block that will let you do something if something else occurs or do something else if it doesn't occur. </td>
+          <td>If the light is red, then you will stop your car or if the light is green, then you will continue.  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+
+        <!-- Fill in the row for Functions -->
+        <tr>
+          <td><b>Functions</b></td>
+          <td>Making a block that will do a function for you that might be repeatative if you use the same blocks
+          over and over. </td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+
+      </table>
+    </div>
+    
+  </body>
+</html>
